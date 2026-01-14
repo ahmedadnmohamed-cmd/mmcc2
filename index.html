@@ -1,0 +1,229 @@
+
+<!-- wp:html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Martha Mitchell Community Center </title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+    header {
+      background: #1e3a5f;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+header h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #ffffff;
+}
+
+    nav {
+      background: #0f2a44;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #fff;
+      padding: 12px 18px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background: #1e3a5f;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h2 {
+      color: #1e3a5f;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 10px;
+    }
+    ul {
+      columns: 2;
+      -webkit-columns: 2;
+      -moz-columns: 2;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    .single-column ul {
+      columns: 1;
+    }
+    .highlight {
+      background: #eef4fb;
+      padding: 20px;
+      border-left: 5px solid #1e3a5f;
+      margin: 20px 0;
+    }
+    footer {
+      background: #1e3a5f;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    @media (max-width: 768px) {
+      ul {
+        columns: 1;
+      }
+    }
+  nav button {
+      background: none;
+      border: none;
+      color: #fff;
+      padding: 12px 18px;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    nav button:hover {
+      background: #1e3a5f;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Martha Mitchell Community Center</h1>
+  <p>Serving the Community with Care, Support, and Opportunity</p>
+  <p><strong>157 Oakmont Ave, Buffalo, NY 14215</strong></p>
+</header>
+
+<nav>
+  <button onclick="scrollToSection('about')">About</button>
+  <button onclick="scrollToSection('programs')">Programs</button>
+  <button onclick="scrollToSection('health')">Health Services</button>
+  <button onclick="scrollToSection('outreach')">Outreach</button>
+  <button onclick="scrollToSection('leadership')">Leadership</button>
+</nav>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>
+     <strong>Martha Mitchell Community Center </strong> is a non-profit organization dedicated to uplifting individuals and families
+    through education, health services, youth empowerment, senior programs, and community outreach.
+  </p>
+  <div class="highlight">
+    <strong>Holiday Impact:</strong><br />
+    Thanksgiving: Fed 5,200 people<br />
+    Christmas: Provided 4,800 meals
+  </div>
+</section>
+
+<section id="programs">
+  <h2>Programs & Services</h2>
+
+  <h3>Community Events & Recreation</h3>
+  <ul>
+    <li>Bingo</li>
+    <li>Pokino</li>
+    <li>Spades</li>
+    <li>Chess</li>
+    <li>Card Games</li>
+  </ul>
+
+  <h3>Youth & Family Programs</h3>
+  <ul>
+    <li>After-School Programs</li>
+    <li>Youth at Risk – Round Table Discussions</li>
+    <li>Don’t Be a Bully Youth Program</li>
+    <li>SDYP – Stop Destruction Youth Project</li>
+    <li>Youth: What’s On Your Mind? Empowerment</li>
+    <li>Vanguard Youth Program</li>
+    <li>Youth Drill Team</li>
+    <li>Youth Field Trips</li>
+    <li>Family Support & Visits</li>
+  </ul>
+
+  <h3>Senior Services</h3>
+  <ul>
+    <li>Monthly Senior Luncheon</li>
+    <li>Senior Field Trips (including Broadway plays in NYC)</li>
+    <li>Healthy Eating & Nutrition Classes</li>
+    <li>Grief Counseling</li>
+    <li>Sewing Circle</li>
+  </ul>
+
+  <h3>Education & Development</h3>
+  <ul>
+    <li>Attain Lab</li>
+    <li>Financial Planning</li>
+    <li>Community Service Opportunities (Students & Court-Referred)</li>
+  </ul>
+</section>
+
+<section id="health" class="single-column">
+  <h2>Health & Wellness Services</h2>
+  <ul>
+    <li>Mental Health Counseling</li>
+    <li>Black Mental Health Meetings</li>
+    <li>NA Meetings</li>
+    <li>NA Youth Meetings</li>
+    <li>Speaker Jam – Recovery & Empowerment Talks</li>
+    <li>Cancer Screenings (Roswell Park Cancer Center)</li>
+    <li>Flu Vaccinations</li>
+    <li>COVID-19 Vaccinations</li>
+    <li>Bloodborne Pathogen Testing (HIV, Hepatitis B)</li>
+  </ul>
+</section>
+
+<section id="outreach">
+  <h2>Community Outreach & Assistance</h2>
+  <ul>
+    <li>The Bread Basket Giveaway – Every Wednesday</li>
+    <li>Clothing Giveaways</li>
+    <li>Diaper & Infant Formula Giveaways</li>
+    <li>Laundry Services (Mon–Fri, 10 AM – 5 PM)</li>
+    <li>Low-Cost ATMs On Site</li>
+    <li>Big Brothers Big Sisters of America Partnership</li>
+  </ul>
+</section>
+
+<section id="leadership" class="single-column">
+  <h2>Leadership</h2>
+
+  <p><strong>Director:</strong> Pastor Albert D. Wilson</p>
+
+  <h3>Board of Directors</h3>
+  <ul>
+    <li>Emily Robinson – President</li>
+    <li>Larry Ross – Vice President of Langfield</li>
+    <li>Kizzie Raid – Vice President</li>
+    <li>Richard Cole – At-Large Member</li>
+    <li>Judith Brown – At-Large Member</li>
+    <li>Vickky Womack – Sergeant at Arms</li>
+    <li>Yasmine Banks – Treasurer</li>
+    <li>Doris Smith – Langfield At-Large</li>
+    <li>Various Community Partners</li>
+  </ul>
+</section>
+
+<footer>
+  <p>&copy; 2026 Martha Mitchell Community Center| 501(c)(3) Nonprofit Organization</p>
+</footer>
+
+<script>
+  function scrollToSection(id) {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+</script>
+
+</body>
+</html>
+
+<!-- /wp:html -->
