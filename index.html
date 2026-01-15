@@ -1,104 +1,145 @@
-
 <!-- wp:html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Martha Mitchell Community Center </title>
+  <title>Martha Mitchell Community Center</title>
+
+  <!-- Open Sans -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+
   <style>
     body {
       margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.6;
-      color: #333;
-      background-color: #f9f9f9;
+      font-family: "Open Sans", Helvetica, Arial, sans-serif;
+      font-weight: 300;
+      line-height: 1.75;
+      color: #1f2f2b;
+      background-color: #FBF7F0;
     }
+
     header {
-      background: #1e3a5f;
-      color: #fff;
-      padding: 20px;
+      background: linear-gradient(135deg, #6BBFA8, #5FAF9A);
+      color: #ffffff;
+      padding: 48px 20px 36px;
       text-align: center;
+      border-bottom: 5px solid #1F3D36;
     }
-header h1 {
-  font-family: Helvetica, Arial, sans-serif;
-  color: #ffffff;
-}
+
+    header h1 {
+      font-family: "Open Sans", Helvetica, Arial, sans-serif;
+      font-size: 2.8rem;
+      font-weight: 300; /* thin Open Sans */
+      letter-spacing: 3px;
+      margin: 0 0 14px;
+      text-transform: uppercase;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    header p {
+      font-size: 1.05rem;
+      margin: 6px 0;
+      font-weight: 300;
+    }
 
     nav {
-      background: #0f2a44;
+      background: #1F3D36;
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
     }
-    nav a {
-      color: #fff;
-      padding: 12px 18px;
-      text-decoration: none;
-      font-weight: bold;
+
+    nav button {
+      background: none;
+      border: none;
+      color: #ffffff;
+      padding: 14px 22px;
+      font-size: 15px;
+      font-weight: 300;
+      letter-spacing: 1px;
+      cursor: pointer;
     }
-    nav a:hover {
-      background: #1e3a5f;
+
+    nav button:hover {
+      background: #5FAF9A;
+      color: #0f2e27;
     }
+
     section {
-      padding: 40px 20px;
+      padding: 56px 24px;
       max-width: 1100px;
       margin: auto;
     }
+
     h2 {
-      color: #1e3a5f;
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 10px;
+      font-size: 1.9rem;
+      font-weight: 300;
+      color: #1F3D36;
+      border-bottom: 2px solid #5FAF9A;
+      padding-bottom: 12px;
+      margin-bottom: 28px;
+      letter-spacing: 1px;
     }
+
+    h3 {
+      font-size: 1.25rem;
+      font-weight: 300;
+      color: #2f6f60;
+      margin-top: 34px;
+    }
+
     ul {
       columns: 2;
-      -webkit-columns: 2;
-      -moz-columns: 2;
+      padding-left: 20px;
     }
+
     li {
-      margin-bottom: 8px;
+      margin-bottom: 10px;
+      font-weight: 300;
     }
+
     .single-column ul {
       columns: 1;
     }
+
     .highlight {
-      background: #eef4fb;
-      padding: 20px;
-      border-left: 5px solid #1e3a5f;
-      margin: 20px 0;
+      background: #E6F3EF;
+      padding: 26px;
+      border-left: 6px solid #5FAF9A;
+      margin: 32px 0;
     }
+
     footer {
-      background: #1e3a5f;
-      color: #fff;
+      background: #1F3D36;
+      color: #ffffff;
       text-align: center;
-      padding: 20px;
-      margin-top: 40px;
+      padding: 26px;
+      margin-top: 60px;
+      font-size: 0.95rem;
+      font-weight: 300;
+      letter-spacing: 0.6px;
     }
+
     @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+
       ul {
         columns: 1;
       }
     }
-  nav button {
-      background: none;
-      border: none;
-      color: #fff;
-      padding: 12px 18px;
-      font-weight: bold;
-      cursor: pointer;
-      font-size: 16px;
-    }
-    nav button:hover {
-      background: #1e3a5f;
-    }
   </style>
 </head>
+
 <body>
 
 <header>
-  <h1>Martha Mitchell Community Center</h1>
+  <h1>MARTHA MITCHELL COMMUNITY CENTER</h1>
   <p>Serving the Community with Care, Support, and Opportunity</p>
-  <p><strong>157 Oakmont Ave, Buffalo, NY 14215</strong></p>
+  <p>157 Oakmont Ave, Buffalo, NY 14215</p>
 </header>
 
 <nav>
@@ -112,11 +153,12 @@ header h1 {
 <section id="about">
   <h2>About Us</h2>
   <p>
-     <strong>Martha Mitchell Community Center </strong> is a non-profit organization dedicated to uplifting individuals and families
-    through education, health services, youth empowerment, senior programs, and community outreach.
+    Martha Mitchell Community Center is a non-profit organization dedicated to uplifting individuals
+    and families through education, health services, youth empowerment, senior programs, and
+    community outreach.
   </p>
+
   <div class="highlight">
-    <strong>Holiday Impact:</strong><br />
     Thanksgiving: Fed 5,200 people<br />
     Christmas: Provided 4,800 meals
   </div>
@@ -125,14 +167,14 @@ header h1 {
 <section id="programs">
   <h2>Programs & Services</h2>
 
-   <h3>Education & Development</h3>
+  <h3>Education & Development</h3>
   <ul>
     <li>Attain Lab</li>
     <li>Financial Planning</li>
     <li>Community Service Opportunities (Students & Court-Referred)</li>
   </ul>
-  
- <h3>Youth & Family Programs</h3>
+
+  <h3>Youth & Family Programs</h3>
   <ul>
     <li>After-School Programs</li>
     <li>Youth at Risk – Round Table Discussions</li>
@@ -144,8 +186,8 @@ header h1 {
     <li>Youth Field Trips</li>
     <li>Family Support & Visits</li>
   </ul>
-  
-   <h3>Senior Services</h3>
+
+  <h3>Senior Services</h3>
   <ul>
     <li>Monthly Senior Luncheon</li>
     <li>Senior Field Trips (including Broadway plays in NYC)</li>
@@ -154,7 +196,6 @@ header h1 {
     <li>Sewing Circle</li>
   </ul>
 
-  
   <h3>Community Events & Recreation</h3>
   <ul>
     <li>Bingo</li>
@@ -163,10 +204,6 @@ header h1 {
     <li>Chess</li>
     <li>Card Games</li>
   </ul>
-
-
-
- 
 </section>
 
 <section id="health" class="single-column">
@@ -216,7 +253,7 @@ header h1 {
 </section>
 
 <footer>
-  <p>&copy; 2026 Martha Mitchell Community Center| 501(c)(3) Nonprofit Organization</p>
+  <p>© 2026 Martha Mitchell Community Center | 501(c)(3) Nonprofit Organization</p>
 </footer>
 
 <script>
@@ -230,5 +267,4 @@ header h1 {
 
 </body>
 </html>
-
 <!-- /wp:html -->
